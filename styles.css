@@ -55,6 +55,8 @@ fieldset{
     font-weight: bold;
     font-size: 20px;
     border-radius:10px ;
+    box-shadow: 15px 10px 10px 5px #888888;
+
 }
 
 #second{
@@ -75,12 +77,14 @@ fieldset{
     border-radius:5px ;
     background: linear-gradient(to bottom,#D9FF84 , #FFFE99,white); 
     flex-direction: column;
+    box-shadow: 10px 10px 10px 0px #888888;
 
 }  
 #chatBox input
 {
     height:50px;
     margin:20px;
+    
 }
 #chatboxes{
     display: flex;
@@ -88,5 +92,8 @@ fieldset{
     position: -webkit-sticky;
     position: sticky; 
     bottom: 0px;
-
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
+
+#chatBox div{ text-shadow: 2px 2px 8px #756e6e;}
