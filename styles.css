@@ -1,0 +1,88 @@
+body{
+    background-color:#fce8fb;
+}
+.container{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+ 
+input[placeholder*="Enter"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: ivory;
+ }
+
+ #radios{
+    width:300px; height: 30px;
+    font-size: small;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline ;
+    gap: 30px;
+ }
+span{
+    text-align: left;
+    color: darkolivegreen;
+    font-size: medium;
+    font-weight: 200;
+
+}
+ *[type="submit"]{
+    height: 35px;
+    width:  70px;
+    border-radius:5px ;
+    background-color: #35428c;
+    color:beige
+ }
+
+fieldset{ 
+    height: 500px;
+    width:700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:10px ;
+}
+
+#second{
+    padding: 250px;
+
+}
+
+#chatBox{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky; 
+    bottom: 0px;
+    height: 300px;
+    width:300px;
+    border: 2px solid slategray;
+    border-radius:5px ;
+    background: linear-gradient(to bottom,#D9FF84 , #FFFE99,white); 
+    flex-direction: column;
+
+}  
+#chatBox input
+{
+    height:50px;
+    margin:20px;
+}
+
